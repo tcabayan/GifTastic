@@ -50,5 +50,37 @@ body {
     color:white;
 }
 
+#searches{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+.card{
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(236, 137, 154);
+    background-clip: border-box;
+    border: 3px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 1% 0 3% 0;
+}
+
+p {
+    margin-top:0;
+    margin-bottom:0;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+img{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
 
